@@ -60,7 +60,7 @@ public class SellerDaoJDBC implements SellerDao {
 
 				DB.closeResultSet(rs);
 
-			} else {
+			}else {
 
 				throw new DbException("Unexpected Error! No Rows Affected");
 
